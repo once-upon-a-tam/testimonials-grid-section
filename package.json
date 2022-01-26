@@ -1,0 +1,19 @@
+{
+  "name": "parcel-projet-start",
+  "version": "1.0.0",
+  "default": "index.html",
+  "repository": "git@github.com:simonfranza/parcel-projet-start.git",
+  "author": "Tam <tam.pro@outlook.fr>",
+  "scripts": {
+	  "start": "parcel index.html",
+	  "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "sass": "^1.49.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.2.1",
+    "parcel": "^2.2.1"
+  },
+  "assetsPath": "assets"
+}
